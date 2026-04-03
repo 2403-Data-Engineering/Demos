@@ -1,6 +1,11 @@
+'''
+This is the module docstring.
+
+There are some weird rules about how these have to look.
+'''
+
 from datetime import datetime, date, time, timedelta
 from zoneinfo import ZoneInfo
-
 
 
 now = datetime.now()
