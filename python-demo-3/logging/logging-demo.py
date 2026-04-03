@@ -1,5 +1,16 @@
 import logging
 
+# Logging levels:
+# CRITICAL = 50
+# FATAL = CRITICAL
+# ERROR = 40
+# WARNING = 30
+# WARN = WARNING
+# INFO = 20
+# DEBUG = 10
+# NOTSET = 0
+
+
 # Basic config
 logging.basicConfig(
     level=logging.WARN,
@@ -12,7 +23,7 @@ logger.setLevel(logging.DEBUG)
 
 
 # Log to file
-handler = logging.FileHandler("app.log")
+handler = logging.FileHandler("logs/app.log", mode="a")
 handler.setLevel(logging.ERROR)
 handler.setFormatter(logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s"))
 logger.addHandler(handler)
@@ -37,15 +48,4 @@ logger.critical("System crash")
 
 
 
-
-
-
-# CRITICAL = 50
-# FATAL = CRITICAL
-# ERROR = 40
-# WARNING = 30
-# WARN = WARNING
-# INFO = 20
-# DEBUG = 10
-# NOTSET = 0
 
