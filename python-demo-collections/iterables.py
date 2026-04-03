@@ -5,10 +5,12 @@
 # the iterable is. For a list based on an array or other index-based structure, you could simply keep
 # a variable that contains the current index, and advnaces when __next__() is called.
 
-from typing import Iterable
 
 
-class MyIterable:
+from collections.abc import Iterable
+
+
+class MyIterable():
     def __init__(self, *args):
         self.index = 0
         self.list: list = []
