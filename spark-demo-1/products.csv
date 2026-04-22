@@ -1,0 +1,54 @@
+product_id,product_name,category,supplier,unit_cost
+PRD-001,Wireless Mouse,Electronics,TechWave,14.99
+PRD-002,USB-C Hub,Electronics,TechWave,29.99
+PRD-003,Webcam HD 1080p,Electronics,TechWave,44.99
+PRD-004,Bluetooth Keyboard,Electronics,TechWave,34.99
+PRD-005,Monitor Stand,Electronics,TechWave,22.99
+PRD-006,Noise Cancelling Headset,Electronics,TechWave,59.99
+PRD-007,Surge Protector 6-Outlet,Electronics,VoltEdge,18.99
+PRD-008,USB Flash Drive 64GB,Electronics,VoltEdge,9.99
+PRD-009,Wireless Charger Pad,Electronics,TechWave,24.99
+PRD-010,HDMI Cable 6ft,Electronics,VoltEdge,8.49
+PRD-011,Laptop Docking Station,Electronics,TechWave,89.99
+PRD-012,Copy Paper 10-Ream,Office Supplies,PaperTrail Co,42.99
+PRD-013,Ballpoint Pens 12-Pack,Office Supplies,PaperTrail Co,6.49
+PRD-014,Legal Pads 6-Pack,Office Supplies,PaperTrail Co,11.99
+PRD-015,Binder Clips Assorted,Office Supplies,PaperTrail Co,4.29
+PRD-016,Dry Erase Markers 8-Pack,Office Supplies,PaperTrail Co,7.99
+PRD-017,File Folders 100-Pack,Office Supplies,PaperTrail Co,14.99
+PRD-018,Stapler Heavy Duty,Office Supplies,Clipstone,12.49
+PRD-019,Tape Dispenser,Office Supplies,Clipstone,5.99
+PRD-020,Scissors 8-Inch,Office Supplies,Clipstone,7.49
+PRD-021,Paper Clips 1000-Count,Office Supplies,Clipstone,3.99
+PRD-022,Sticky Notes 12-Pack,Office Supplies,PaperTrail Co,8.99
+PRD-023,Envelopes #10 500-Count,Office Supplies,PaperTrail Co,24.99
+PRD-024,Correction Tape 6-Pack,Office Supplies,Clipstone,9.49
+PRD-025,Standing Desk 48in,Furniture,IronOak,349.99
+PRD-026,Ergonomic Chair,Furniture,IronOak,279.99
+PRD-027,Bookshelf 5-Tier,Furniture,IronOak,129.99
+PRD-028,Filing Cabinet 3-Drawer,Furniture,IronOak,189.99
+PRD-029,Conference Table 8ft,Furniture,IronOak,549.99
+PRD-030,Desk Lamp LED,Furniture,IronOak,39.99
+PRD-031,Whiteboard 48x36,Furniture,ClearView,89.99
+PRD-032,Monitor Arm Dual,Furniture,ClearView,64.99
+PRD-033,Under-Desk Keyboard Tray,Furniture,ClearView,34.99
+PRD-034,Cable Management Kit,Furniture,ClearView,19.99
+PRD-035,Coffee K-Cups 72-Count,Breakroom,DailyBrew,34.99
+PRD-036,Paper Towels 12-Roll,Breakroom,CleanStock,18.99
+PRD-037,Hand Soap Refill 1-Gal,Breakroom,CleanStock,12.49
+PRD-038,Disinfecting Wipes 3-Pack,Breakroom,CleanStock,11.99
+PRD-039,Snack Variety Box 40-Count,Breakroom,GoodGraze,27.99
+PRD-040,Water Filters 3-Pack,Breakroom,CleanStock,19.99
+PRD-041,Napkins 500-Count,Breakroom,CleanStock,8.49
+PRD-042,Creamer Variety 100-Count,Breakroom,DailyBrew,14.99
+PRD-043,Trash Bags 50-Gal 100-Count,Breakroom,CleanStock,22.99
+PRD-044,Sugar Packets 1000-Count,Breakroom,DailyBrew,12.99
+PRD-045,Antivirus License 1-Year,Software,SecureNet,49.99
+PRD-046,Office Suite License,Software,DeskApps,149.99
+PRD-047,Cloud Backup 1TB,Software,SecureNet,79.99
+PRD-048,Project Management Tool,Software,DeskApps,99.99
+PRD-049,VPN License 1-Year,Software,SecureNet,39.99
+PRD-050,PDF Editor License,Software,DeskApps,59.99
+PRD-051,Endpoint Security Suite,Software,SecureNet,129.99
+PRD-052,Video Conferencing License,Software,DeskApps,74.99
+PRD-053,Password Manager Team,Software,SecureNet,29.99

@@ -1,0 +1,53 @@
+{"product_id":"PRD-001","product_name":"Wireless Mouse","category":"Electronics","supplier":"TechWave","unit_cost":14.99}
+{"product_id":"PRD-002","product_name":"USB-C Hub","category":"Electronics","supplier":"TechWave","unit_cost":29.99}
+{"product_id":"PRD-003","product_name":"Webcam HD 1080p","category":"Electronics","supplier":"TechWave","unit_cost":44.99}
+{"product_id":"PRD-004","product_name":"Bluetooth Keyboard","category":"Electronics","supplier":"TechWave","unit_cost":34.99}
+{"product_id":"PRD-005","product_name":"Monitor Stand","category":"Electronics","supplier":"TechWave","unit_cost":22.99}
+{"product_id":"PRD-006","product_name":"Noise Cancelling Headset","category":"Electronics","supplier":"TechWave","unit_cost":59.99}
+{"product_id":"PRD-007","product_name":"Surge Protector 6-Outlet","category":"Electronics","supplier":"VoltEdge","unit_cost":18.99}
+{"product_id":"PRD-008","product_name":"USB Flash Drive 64GB","category":"Electronics","supplier":"VoltEdge","unit_cost":9.99}
+{"product_id":"PRD-009","product_name":"Wireless Charger Pad","category":"Electronics","supplier":"TechWave","unit_cost":24.99}
+{"product_id":"PRD-010","product_name":"HDMI Cable 6ft","category":"Electronics","supplier":"VoltEdge","unit_cost":8.49}
+{"product_id":"PRD-011","product_name":"Laptop Docking Station","category":"Electronics","supplier":"TechWave","unit_cost":89.99}
+{"product_id":"PRD-012","product_name":"Copy Paper 10-Ream","category":"Office Supplies","supplier":"PaperTrail Co","unit_cost":42.99}
+{"product_id":"PRD-013","product_name":"Ballpoint Pens 12-Pack","category":"Office Supplies","supplier":"PaperTrail Co","unit_cost":6.49}
+{"product_id":"PRD-014","product_name":"Legal Pads 6-Pack","category":"Office Supplies","supplier":"PaperTrail Co","unit_cost":11.99}
+{"product_id":"PRD-015","product_name":"Binder Clips Assorted","category":"Office Supplies","supplier":"PaperTrail Co","unit_cost":4.29}
+{"product_id":"PRD-016","product_name":"Dry Erase Markers 8-Pack","category":"Office Supplies","supplier":"PaperTrail Co","unit_cost":7.99}
+{"product_id":"PRD-017","product_name":"File Folders 100-Pack","category":"Office Supplies","supplier":"PaperTrail Co","unit_cost":14.99}
+{"product_id":"PRD-018","product_name":"Stapler Heavy Duty","category":"Office Supplies","supplier":"Clipstone","unit_cost":12.49}
+{"product_id":"PRD-019","product_name":"Tape Dispenser","category":"Office Supplies","supplier":"Clipstone","unit_cost":5.99}
+{"product_id":"PRD-020","product_name":"Scissors 8-Inch","category":"Office Supplies","supplier":"Clipstone","unit_cost":7.49}
+{"product_id":"PRD-021","product_name":"Paper Clips 1000-Count","category":"Office Supplies","supplier":"Clipstone","unit_cost":3.99}
+{"product_id":"PRD-022","product_name":"Sticky Notes 12-Pack","category":"Office Supplies","supplier":"PaperTrail Co","unit_cost":8.99}
+{"product_id":"PRD-023","product_name":"Envelopes #10 500-Count","category":"Office Supplies","supplier":"PaperTrail Co","unit_cost":24.99}
+{"product_id":"PRD-024","product_name":"Correction Tape 6-Pack","category":"Office Supplies","supplier":"Clipstone","unit_cost":9.49}
+{"product_id":"PRD-025","product_name":"Standing Desk 48in","category":"Furniture","supplier":"IronOak","unit_cost":349.99}
+{"product_id":"PRD-026","product_name":"Ergonomic Chair","category":"Furniture","supplier":"IronOak","unit_cost":279.99}
+{"product_id":"PRD-027","product_name":"Bookshelf 5-Tier","category":"Furniture","supplier":"IronOak","unit_cost":129.99}
+{"product_id":"PRD-028","product_name":"Filing Cabinet 3-Drawer","category":"Furniture","supplier":"IronOak","unit_cost":189.99}
+{"product_id":"PRD-029","product_name":"Conference Table 8ft","category":"Furniture","supplier":"IronOak","unit_cost":549.99}
+{"product_id":"PRD-030","product_name":"Desk Lamp LED","category":"Furniture","supplier":"IronOak","unit_cost":39.99}
+{"product_id":"PRD-031","product_name":"Whiteboard 48x36","category":"Furniture","supplier":"ClearView","unit_cost":89.99}
+{"product_id":"PRD-032","product_name":"Monitor Arm Dual","category":"Furniture","supplier":"ClearView","unit_cost":64.99}
+{"product_id":"PRD-033","product_name":"Under-Desk Keyboard Tray","category":"Furniture","supplier":"ClearView","unit_cost":34.99}
+{"product_id":"PRD-034","product_name":"Cable Management Kit","category":"Furniture","supplier":"ClearView","unit_cost":19.99}
+{"product_id":"PRD-035","product_name":"Coffee K-Cups 72-Count","category":"Breakroom","supplier":"DailyBrew","unit_cost":34.99}
+{"product_id":"PRD-036","product_name":"Paper Towels 12-Roll","category":"Breakroom","supplier":"CleanStock","unit_cost":18.99}
+{"product_id":"PRD-037","product_name":"Hand Soap Refill 1-Gal","category":"Breakroom","supplier":"CleanStock","unit_cost":12.49}
+{"product_id":"PRD-038","product_name":"Disinfecting Wipes 3-Pack","category":"Breakroom","supplier":"CleanStock","unit_cost":11.99}
+{"product_id":"PRD-039","product_name":"Snack Variety Box 40-Count","category":"Breakroom","supplier":"GoodGraze","unit_cost":27.99}
+{"product_id":"PRD-040","product_name":"Water Filters 3-Pack","category":"Breakroom","supplier":"CleanStock","unit_cost":19.99}
+{"product_id":"PRD-041","product_name":"Napkins 500-Count","category":"Breakroom","supplier":"CleanStock","unit_cost":8.49}
+{"product_id":"PRD-042","product_name":"Creamer Variety 100-Count","category":"Breakroom","supplier":"DailyBrew","unit_cost":14.99}
+{"product_id":"PRD-043","product_name":"Trash Bags 50-Gal 100-Count","category":"Breakroom","supplier":"CleanStock","unit_cost":22.99}
+{"product_id":"PRD-044","product_name":"Sugar Packets 1000-Count","category":"Breakroom","supplier":"DailyBrew","unit_cost":12.99}
+{"product_id":"PRD-045","product_name":"Antivirus License 1-Year","category":"Software","supplier":"SecureNet","unit_cost":49.99}
+{"product_id":"PRD-046","product_name":"Office Suite License","category":"Software","supplier":"DeskApps","unit_cost":149.99}
+{"product_id":"PRD-047","product_name":"Cloud Backup 1TB","category":"Software","supplier":"SecureNet","unit_cost":79.99}
+{"product_id":"PRD-048","product_name":"Project Management Tool","category":"Software","supplier":"DeskApps","unit_cost":99.99}
+{"product_id":"PRD-049","product_name":"VPN License 1-Year","category":"Software","supplier":"SecureNet","unit_cost":39.99}
+{"product_id":"PRD-050","product_name":"PDF Editor License","category":"Software","supplier":"DeskApps","unit_cost":59.99}
+{"product_id":"PRD-051","product_name":"Endpoint Security Suite","category":"Software","supplier":"SecureNet","unit_cost":129.99}
+{"product_id":"PRD-052","product_name":"Video Conferencing License","category":"Software","supplier":"DeskApps","unit_cost":74.99}
+{"product_id":"PRD-053","product_name":"Password Manager Team","category":"Software","supplier":"SecureNet","unit_cost":29.99}

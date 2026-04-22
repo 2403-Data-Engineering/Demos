@@ -1,0 +1,13 @@
+store_id,store_name,city,state,region
+STR-001,Downtown Portland,Portland,OR,West
+STR-002,Seattle Central,Seattle,WA,West
+STR-003,San Jose Tech Park,San Jose,CA,West
+STR-004,Chicago Loop,Chicago,IL,Midwest
+STR-005,Minneapolis North,Minneapolis,MN,Midwest
+STR-006,Columbus Square,Columbus,OH,Midwest
+STR-007,Atlanta Midtown,Atlanta,GA,South
+STR-008,Nashville West,Nashville,TN,South
+STR-009,Houston Galleria,Houston,TX,South
+STR-010,Boston Harbor,Boston,MA,East
+STR-011,New York Midtown,New York,NY,East
+STR-012,Philadelphia Center,Philadelphia,PA,East
