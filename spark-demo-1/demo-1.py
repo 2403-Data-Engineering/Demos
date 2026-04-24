@@ -4,7 +4,7 @@ os.environ["PYSPARK_DRIVER_PYTHON"] = f'{sys.executable}'
 # os.environ["HADOOP_HOME"] = r"C:\hadoop"
 # os.environ["PATH"] = os.environ["HADOOP_HOME"] + r"\bin;" + os.environ["PATH"]
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import explode, split
+from pyspark.sql.functions import explode, split, col
 
 spark = SparkSession.builder.appName("WordCount").getOrCreate()
 
@@ -16,8 +16,9 @@ df.show()
 
 
 (df.select(explode(split("line", " ")).alias("word"))  # map: line → words
-   .groupBy("word")                                     # shuffle: group by key
-   .count()                                             # reduce: count per key
-   .show())
+    .filter(col("word")!= "the")                        # filter out the "the"s
+    .groupBy("word")                                     # shuffle: group by key
+    .count()                                             # reduce: count per key
+    .show())
 
 
