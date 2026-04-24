@@ -68,8 +68,7 @@ BATCH_SIZE = 25000
 # DataFrames batch by batch (each batch must match the same schema).
 # -------------------------------------------------------------
 ACCOUNT_SCHEMA = StructType([
-    StructField("account_id",   StringType(), False),
-    StructField("account_type", StringType(), False),
+    StructField("account_id", StringType(), False),
     # ADD STUDENTS' DERIVED NODE PROPERTIES HERE, e.g.:
     # StructField("fraud_score", DoubleType(), True),
     # StructField("fan_in",      IntegerType(), True),
@@ -89,7 +88,6 @@ TRANSACTION_BATCH_SCHEMA = StructType([
     StructField("newbalanceOrig", DoubleType(),  False),
     StructField("oldbalanceDest", DoubleType(),  False),
     StructField("newbalanceDest", DoubleType(),  False),
-    StructField("isFraud",        IntegerType(), False),
     # ADD STUDENTS' DERIVED EDGE PROPERTIES HERE
 ])
 
@@ -104,8 +102,7 @@ TRANSACTION_BATCH_SCHEMA = StructType([
 ACCOUNTS_QUERY = """
 MATCH (a:Account)
 RETURN
-  a.id   AS account_id,
-  a.type AS account_type
+  a.id AS account_id
   // ADD DERIVED PROPERTIES HERE, e.g.:
   // , a.fraud_score AS fraud_score
   // , a.fan_in      AS fan_in
@@ -128,8 +125,7 @@ RETURN
   t.oldbalanceOrg  AS oldbalanceOrg,
   t.newbalanceOrig AS newbalanceOrig,
   t.oldbalanceDest AS oldbalanceDest,
-  t.newbalanceDest AS newbalanceDest,
-  t.isFraud        AS isFraud
+  t.newbalanceDest AS newbalanceDest
   // ADD DERIVED EDGE PROPERTIES HERE
 ORDER BY elementId(t)
 LIMIT $batch_size
@@ -188,8 +184,7 @@ def stream_transactions_to_parquet(driver, spark, output_path):
                     float(r["oldbalanceOrg"]),
                     float(r["newbalanceOrig"]),
                     float(r["oldbalanceDest"]),
-                    float(r["newbalanceDest"]),
-                    int(r["isFraud"]),
+                    float(r["newbalanceDest"])
                 )
                 for r in result
             ]
