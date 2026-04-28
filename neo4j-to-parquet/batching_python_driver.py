@@ -1,4 +1,53 @@
 """
+We want to extract our graph database after having completed the work there. Next we want to export that data into parquet files
+in star schema in order to load into PowerBI and consume/visualize.
+
+What do we need to do? What do we need to decide before we can begin?
+We need to model a star schema
+ - we need the grain and the fact/dimensions
+ - we need to establish the schema (columns)
+
+Fact: Transactions
+Dimensions: Accounts, tranaction type, step lookup date
+Grain: 1 transaction
+
+fact_transactions (partitioned by date):
+=============================================
+nameOrig (string) — FK to dim_account
+nameDest (string) — FK to dim_account
+step (int) — FK to dim_date
+type (string) — FK to dim_transaction_type (by name, not key)
+amount (double), 
+oldbalanceOrg (double), 
+newbalanceOrig (double), 
+oldbalanceDest (double), 
+newbalanceDest (double),
+date (partition column, joined in from dim_date)
+=============================================
+
+
+dim_account
+=============================================
+account_id (string)
+=============================================
+
+
+dim_transaction_type
+=============================================
+type_key (int)
+type_name (string)
+=============================================
+
+
+dim_date
+=============================================
+date_key (int) — equals step
+datetime (string)
+date (date)
+hour (int)
+day_of_week (string)
+=============================================
+
 Extract data from Neo4j and write as partitioned Parquet star schema.
 
 SCALABLE VERSION — for full PaySim or anything large.
