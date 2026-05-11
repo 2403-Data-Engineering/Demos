@@ -1,0 +1,4 @@
+weaviate
+pyspark
+weaviate-client
+packaging
