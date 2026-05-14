@@ -1,0 +1,3 @@
+v1
+{"path":"file:///C:/Training/Cohorts/TRNG-2403_Data_Engineering/Demos/spark-streaming-demo-1/output/windowed_avgs/part-00000-ec7a6efc-de56-4c26-a289-35cfc2fed772-c000.snappy.parquet","size":704,"isDir":false,"modificationTime":1778773247692,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///C:/Training/Cohorts/TRNG-2403_Data_Engineering/Demos/spark-streaming-demo-1/output/windowed_avgs/part-00139-c8ffb049-df07-4ef4-8c1e-50c35e114873-c000.snappy.parquet","size":1452,"isDir":false,"modificationTime":1778773267963,"blockReplication":1,"blockSize":33554432,"action":"add"}
